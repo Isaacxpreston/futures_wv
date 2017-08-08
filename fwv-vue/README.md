@@ -1,6 +1,6 @@
-# bf-vue
+# fwv vue
 
-> A Vue.js project
+> Vue client
 
 ## Build Setup
 
