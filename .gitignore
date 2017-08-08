@@ -1,0 +1,5 @@
+.DS_Store
+wp-config.php
+wp-content/mysql.sql  
+
+skeleton/error_log

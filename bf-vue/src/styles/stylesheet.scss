@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Portrait-Regular';
+  src: url('https://s3-us-west-2.amazonaws.com/brooks-falotico-vpv/Portrait-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'WorkSans-Regular';
+  src: url('https://s3-us-west-2.amazonaws.com/brooks-falotico-vpv/WorkSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'WorkSans-Medium';
+  src: url('https://s3-us-west-2.amazonaws.com/brooks-falotico-vpv/WorkSans-Medium.ttf') format('truetype');
+}
+
+@import './breakpoints.scss';
+@import './fonts.scss';
+@import './swiper.css';
+@import './colors.scss';
+
+body {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin: 0px;
+  width: 100%;
+  background: $rice;
+  user-select: none;
+}
+
+.width-maxer {
+  width: 100%;
+  margin: auto;
+  @media screen and (min-width: 1281px) {
+    width: calc(100% - 25% + 128px);
+  }
+}

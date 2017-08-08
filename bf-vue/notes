@@ -1,0 +1,11 @@
+////////////////////////////
+//////////  Todo  //////////
+////////////////////////////
+ 
+  cross-browser
+    chrome (microsoft)
+      fix arrow spacing
+      fix main menu chevron spacing
+    GLOBAL
+      debug the expand icon (possibly change svg files manually)
+      subheader font not loading correctly
