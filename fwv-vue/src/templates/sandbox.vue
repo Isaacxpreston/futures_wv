@@ -27,13 +27,14 @@
       submit_login () {
         var context = this
         this.status = 'submitting'
-        axios.post('api-address-HERE', {
+        axios.post(addresses.db_server, {
           name: this.name,
           email: this.email,
           school: this.school
         })
         .then((response) => {
           //do something client side
+          context.status = response.data
         })
         .catch((error) => {
           context.status = 'error'
