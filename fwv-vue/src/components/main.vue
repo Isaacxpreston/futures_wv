@@ -1,24 +1,24 @@
 <template>
   <div class="main">
     <div class="router-wrapper" v-bind:class="[router_transition]">
-      <router-view v-on:nav="do_nav"></router-view>
+      <router-view></router-view>
       <!-- <vfooter v-if="route_has_footer()" v-bind:color="footer_color" v-bind:footertype="footer_type">Footer</vfooter> -->
     </div>
-    <navigation v-if="this.$route.name !== 'landing'" v-on:nav="do_nav">{{ $route.name }}</navigation>
+    <!-- <navigation v-if="this.$route.name !== 'landing'" v-on:nav="do_nav">{{ $route.name }}</navigation> -->
   </div>
 </template>
 
 <script>
-  import footer from './organisms/footer'
-  import navigation from './organisms/navigation'
+  // import footer from './organisms/footer'
+  // import navigation from './organisms/navigation'
 
   import scroll_reveal from '../utils/scroll_reveal'
 
   export default {
-    components: {
-      'navigation': navigation,
-      'vfooter': footer
-    },
+    // components: {
+    //   'navigation': navigation,
+    //   'vfooter': footer
+    // },
     data () {
       return {
         footer_color: 'frost',

@@ -5,19 +5,7 @@
 </template>
 
 <script>
-// import './styles/colors.scss'
-export default {
-  name: 'app'
-}
+  export default {
+    name: 'app'
+  }
 </script>
-
-<style>
-/*
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-}
-*/
-</style>
